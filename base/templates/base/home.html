@@ -4,17 +4,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Dennis Ivanov</title>
+	<title>Portfolio</title>
 	<link href="{% static '/css/main.css'  %}" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	
 </head>
-<body>
+<body id="body">
 	<br>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-3">
-				<div class="card card-body h-100  border-info" id="profile-wrapper">
+				<div class="card card-body h-100  border-info " id="profile-wrapper">
 					<img id="profile-pic" src="{% static 'images/profile-pic.png' %}" >
 					<hr>
 					<h4>Hi I'm Indrarjun!</h4>
@@ -23,7 +23,7 @@
 			</div>
 
 			<div class="col-md-9">
-				<div class="card card-body h-100  border-info">
+				<div class="card card-body h-100  border-info " >
 					<h4>Summary</h4>
 					<hr>
 					<p>Hardworking College Student seeking employment. Adept in solving various problems and office technology programs.
@@ -58,10 +58,12 @@
 
 			<div class="col-md-6">
 				<div class="card card-body h-100">
-					<h5>What I Know</h5>
+					<h5>Most Recent Project</h5>
 					<hr>
-					<p>Python, Django, HTML/CSS, JavaScript/Jquery, React, Postgres, AWS and APIs such as google maps, JavaScript charts and a whole bunch more I can’t possibly mention in one sentence! ;)</p>
-					<p>PS: Working on Node JS, Mongo DB and Machine Learning.</p>
+					<p>To-do List App:</p>
+					<p>This is a To-do list app built using Django and PostgreSQL. It creates a new database with a 
+						table name todos which stores the given task with a primary key. It has a front-end interface developed using HTML and 
+						Bootstrap. We can add new tasks or remove existing one from the interface which updates the table in the database.</p>
 				</div>
 			</div>
 		</div>
@@ -69,11 +71,13 @@
 		<div class="row">
 			<div class="col-md-6">
 				<div class="card card-body h-100">
-					<h5>How I Learn</h5>
+					<h5>Certifications</h5>
 					<hr>
-					<p>Reverse Engineer & Build Ugly Prototypes First.</p>
-
-					<p>I can learn just about anything by having a final product to tear apart piece by piece. I break the code where I need to figure out why things work the way they do. Documentation is just a reference.</p>
+					<p>•Microsoft Certified: Azure AI Fundamentals (AI 900).<br>
+						• Career Essentials in Software Development by Microsoft and LinkedIn.<br>
+						• MongoDB Basics (M001).<br>
+						• Microsoft Certified: Azure Data Fundamentals (DP 900).<br>
+						• AWS Machine Learning Foundations 2022<br></p>
 				</div>
 			</div>
 
@@ -81,8 +85,12 @@
 				<div class="card card-body h-100">
 					<h5>My Short Term Goals</h5>
 				<hr>
-				<p>After almost two years of supporting my system at the lab I’m ready to learn something new. I'll collaborating and sharing my experience with others on my blog (SayHelloWorld.co) & youtube channel.</p>
-				<p>Aside from building small projects I would love to enter a position where I can be part of a bigger team & learn from others with more experience than myself.</p>
+				<p>Enhance technical skills .<br>
+					Work on projects that challenge and expand your abilities.<br>
+					Seek out opportunities for professional development.<br>
+					Collaborate with cross-functional teams.<br>
+					Improve time-management and project planning skills.</p>
+				<!-- <p>Aside from building small projects I would love to enter a position where I can be part of a bigger team & learn from others with more experience than myself.</p> -->
 
 				</div>
 			</div>
